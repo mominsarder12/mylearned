@@ -1,3 +1,26 @@
+@media (max-width:1160px) {
+    .txt h3 {
+        font-size: 25px;
+    }
+
+    .txt p {
+        font-size: 14px;
+
+    }
+
+    .inner-contact .content .img2 {
+        display: none;
+    }
+
+
+
+    .inner-contact .form-container {
+
+        top: -20%;
+        right: 2%;
+    }
+}
+
 @media (max-width:992px) {
 
     /* header section */
@@ -18,9 +41,9 @@
         position: absolute;
         top: 0;
         left: -1000px;
-        width: 50vw;
+        width: 100%;
         height: 100vh;
-        background-color: rgba(45, 45, 45, 0.5);
+        background-color: rgba(45, 45, 45, .8);
         transition: 0.5s;
         flex-direction: column;
         align-items: center;
@@ -37,6 +60,7 @@
 
     /* hero section */
     .inner-hero {
+        
         height: 600px;
         padding-bottom: 0;
     }
@@ -55,10 +79,37 @@
         top: 0;
     }
 
+    /* about section */
+
+    .pos {
+        display: none !important;
+    }
+
+    .inner-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner-about .video {
+        width: 100%;
+    }
+
+    .inner-about .dec {
+        width: 100%;
+    }
+
     /* services section */
     .inner-services {
         grid-template-columns: repeat(2, 1fr);
         padding: 10px 0 0;
+    }
+
+    /* about section */
+    .inner-contact .form-container {
+
+        margin: 20px auto;
+        position: initial;
+
     }
 
 }
@@ -67,10 +118,12 @@
 
     /* hero section */
     .inner-hero {
-        height: auto;
         width: 100%;
         margin: 20px auto;
         flex-direction: column;
+        padding-top: 6rem;
+        height: auto !important;
+
     }
 
     .inner-hero .left-side,
@@ -100,5 +153,63 @@
         grid-template-columns: 1fr;
     }
 
+    .dec h2 {
+        font-size: 35px;
+    }
+    /* about section */
 
+    .nbr {
+        font-size: 25px;
+    }
+
+    .txt h3 {
+        font-size: 1.2rem;
+    }
+
+    .txt p {
+        font-size: .8rem;
+
+    }
+    /* review section */
+    .inner-review .news {
+       flex-direction: column;
+    }
+    .news .description{
+        width: 100%;
+    }
+    .news .button-contain {
+        margin-top: 30px; 
+        width: 100%;
+    }
+    .impression-container .item {
+        width: 100%;
+        padding: 20px;
+    }
+      
+
+
+}
+
+@media (max-width:350px) {
+
+    .inner-contact .form-container {
+        width: 100%;
+
+
+    }
+    .txt h3 {
+        font-size: 1rem;
+    }
+
+    .txt p {
+        font-size: .6rem;
+
+    }
+    
+.inner-contact .content .txt {
+
+    bottom: 60%;
+    left: 10%;
+
+}
 }
