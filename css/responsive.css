@@ -60,7 +60,7 @@
 
     /* hero section */
     .inner-hero {
-        
+
         height: 600px;
         padding-bottom: 0;
     }
@@ -156,6 +156,7 @@
     .dec h2 {
         font-size: 35px;
     }
+
     /* about section */
 
     .nbr {
@@ -170,22 +171,32 @@
         font-size: .8rem;
 
     }
+
     /* review section */
     .inner-review .news {
-       flex-direction: column;
+        flex-direction: column;
     }
-    .news .description{
+
+    .news .description {
         width: 100%;
     }
+
     .news .button-contain {
-        margin-top: 30px; 
+        margin-top: 30px;
         width: 100%;
     }
+
     .impression-container .item {
         width: 100%;
         padding: 20px;
     }
-      
+
+    /* footer */
+    .item1,
+    .inner-bottom .left {
+        padding-left: 10px;
+    }
+
 
 
 }
@@ -197,6 +208,7 @@
 
 
     }
+
     .txt h3 {
         font-size: 1rem;
     }
@@ -205,11 +217,11 @@
         font-size: .6rem;
 
     }
-    
-.inner-contact .content .txt {
 
-    bottom: 60%;
-    left: 10%;
+    .inner-contact .content .txt {
 
-}
+        bottom: 60%;
+        left: 10%;
+
+    }
 }
